@@ -11,8 +11,9 @@
 # @author Edgard Leal                                            # 
 #                                                                # 
 ##################################################################	
+declare script_dir="$(dirname $0)"
 
-. /home/edgardleal/bin/log.sh
+. "${script_dir}/log.sh"
 
 
 declare -r trash="$HOME/.trash"
